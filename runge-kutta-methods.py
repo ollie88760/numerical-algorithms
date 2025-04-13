@@ -82,14 +82,14 @@ def RK4(func, h, x_0, x_max, y_0):
 
 
 
-def f(x, y):    
-    return (5 * x**2 - y)/(np.exp(x + y))
+# def f(x, y):    
+#     return (5 * x**2 - y)/(np.exp(x + y))
 
-vals = RK4(f, 0.1, x_0=0, x_max=10, y_0=1)
+# vals = RK4(f, 0.1, x_0=0, x_max=10, y_0=1)
 
-plt.plot(vals[0], vals[1])
-plt.grid()
-plt.show()
+# plt.plot(vals[0], vals[1])
+# plt.grid()
+# plt.show()
 
 
 
